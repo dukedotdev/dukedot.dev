@@ -2,50 +2,30 @@ const math = require("remark-math");
 const katex = require("rehype-katex");
 
 const internetProfiles = {
-  linkedin: {
-    label: "LinkedIn",
-    href: "https://www.linkedin.com/in/evanitsg/",
-  },
   github: {
     label: "GitHub",
-    href: "https://github.com/digipie",
-  },
-  padlet: {
-    label: "Padlet",
-    href: "https://padlet.com/about/us/wish/1072760846",
+    href: "https://github.com/dukedotdev",
   },
   email: {
     label: "Email",
-    href: "mailto:evan.it.sg@gmail.com",
-  },
-  blog: {
-    label: "Blog",
-    to: "blog",
-  },
-  docs: {
-    label: "Documentation",
-    to: "docs",
+    href: "mailto:admin@dukedot.dev",
   },
   projects: {
     label: "Projects",
     to: "projects",
   },
-  resume: {
-    label: "Resume",
-    href: "https://evantay.com/pdf/resume.pdf",
-  },
 };
 
 module.exports = {
-  title: "Evan Tay",
+  title: "dukedotdev",
   tagline:
-    "I am a Software Engineer and Cloud Engineer passionate about solving meaningful problems.",
-  url: "https://evantay.com",
+    "I am a Software Engineer and Rec Room Circuiteer who enjoys coding in their freetime.",
+  url: "https://dukedot.dev",
   baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/logo.png",
-  organizationName: "digipie",
-  projectName: "kaya-folio",
+  organizationName: "dukedotdev",
+  projectName: "portfolio",
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
@@ -54,26 +34,14 @@ module.exports = {
     },
     navbar: {
       hideOnScroll: true,
-      title: "Evan Tay",
+      title: "dukedotdev",
       logo: {
-        alt: "Evan Tay",
+        alt: "dukedotdev",
         src: "img/logo.png",
         target: "_self",
       },
       items: [
-        { to: "blog/", label: "Blog", position: "left" },
-        {
-          to: "docs/",
-          activeBasePath: "docs",
-          label: "Docs",
-          position: "left",
-        },
         { to: "projects/", label: "Projects", position: "right" },
-        {
-          href: "https://evantay.com/pdf/resume.pdf",
-          label: "Resume",
-          position: "right",
-        },
       ],
     },
     footer: {
@@ -81,19 +49,14 @@ module.exports = {
         {
           title: "Connect",
           items: [
-            internetProfiles.linkedin,
             internetProfiles.github,
-            internetProfiles.padlet,
             internetProfiles.email,
           ],
         },
         {
           title: "Discover",
           items: [
-            internetProfiles.blog,
-            internetProfiles.docs,
             internetProfiles.projects,
-            internetProfiles.resume,
           ],
         },
       ],
@@ -105,18 +68,6 @@ module.exports = {
     [
       "@docusaurus/preset-classic",
       {
-        docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          disableVersioning: false,
-          editCurrentVersion: false,
-          remarkPlugins: [math],
-          rehypePlugins: [katex],
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl: "https://github.com/DigiPie/kaya-folio/tree/main/website/",
-        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
