@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://dukedot.dev/blog</id>
+    <title>dukedotdev Blog</title>
+    <updated>2024-02-18T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://dukedot.dev/blog"/>
+    <subtitle>dukedotdev Blog</subtitle>
+    <icon>https://dukedot.dev/img/site-assets/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome!👋]]></title>
+        <id>https://dukedot.dev/blog/welcome</id>
+        <link href="https://dukedot.dev/blog/welcome"/>
+        <updated>2024-02-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I haven't had the time to write any blogs, check back later!]]></summary>
+        <content type="html"><![CDATA[<p>I haven't had the time to write any blogs, check back later!</p>]]></content>
+        <author>
+            <name>dukedotdev</name>
+            <email>contact@dukedot.dev</email>
+            <uri>https://dukedot.dev</uri>
+        </author>
+        <category label="Getting started" term="Getting started"/>
+    </entry>
+</feed>
