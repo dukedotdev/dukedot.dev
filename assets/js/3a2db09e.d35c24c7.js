@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdukedot_dev=self.webpackChunkdukedot_dev||[]).push([[9361],{7588:e=>{e.exports=JSON.parse('{"tags":[{"label":"Getting started","permalink":"/blog/tags/getting-started","count":1}]}')}}]);
