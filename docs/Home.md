@@ -1,7 +1,7 @@
 ---
 id: home
 title: Home
-description: Welcome to my silly corner of the interwebs!
+description: Welcome!
 tags:
   - Info
   - Getting Started
@@ -9,9 +9,9 @@ sidebar_position: 1
 slug: /
 ---
 
-# Welcome to my silly corner of the interwebs!
+# Welcome!
 
-:::danger Watch Out!
+:::warning Watch Out!
 
 This website isn't complete and may be missing some info that you're looking for! To request a new page or an expansion to an already existing one, head [here](https://github.com/dukedotdev/dukedot.dev/issues).
 

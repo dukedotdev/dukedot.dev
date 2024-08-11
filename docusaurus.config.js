@@ -42,6 +42,10 @@ const config = {
     ],
   ],
 
+  plugins: [
+    'docusaurus-plugin-image-zoom',
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -111,12 +115,22 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} dukedotdev. Built with <a href="https://docusaurus.io">Docusaurus</a>.<br><a href="https://github.com/dukedotdev/dukedot.dev/commits/main/">dukedot.dev v0.2.1</a>`,
+        copyright: `Copyright © ${new Date().getFullYear()} dukedotdev. Built with <a href="https://docusaurus.io">Docusaurus</a>.<br><a href="https://github.com/dukedotdev/dukedot.dev/commits/main/">dukedot.dev v0.3.0</a>`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      zoom: {
+        selector: '.markdown > img',
+        background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)'
+        },
+        config: {
+          // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+        }
+      }
     }),
 };
 

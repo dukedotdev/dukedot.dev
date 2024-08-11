@@ -7,7 +7,7 @@ tags:
   - Getting Started
   - Steam
 sidebar_position: 3
-slug: /steam
+slug: /info/steam
 ---
 
 ## Can I add you?
@@ -20,7 +20,7 @@ Depends on the game! I'm generally down for a fun time in most multiplayer games
 
 ### Can we play Rec Room together?
 
-Please see [this page](docs\Info\Rec_Room.md)!
+Please see [this page](docs\Info\RecRoom.md)!
 
 ## Missing something?
 
