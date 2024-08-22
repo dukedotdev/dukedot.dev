@@ -23,6 +23,8 @@ slug: /projects/payday3mods/plinkheistericons
 
 This mod changes the heister's icons in the HUD to have the face of Plink.
 
+There are 8 variations, 7 of a singular heister being replaced and one version with all.
+
 :::warning
 
 All heister icons [excluding Clover's] are the same file. This means that trying to use multiple individual Plink Heister Icons in the same installation will only show one. A version that has every heister replaced is included upon download.
@@ -68,6 +70,10 @@ This mod's source code **is** public! You can find it [**here**](https://dkdd.li
 :::
 
 ## Changelog
+
+### `1.0.0 + 22`
+
+- Update mod page description.
 
 ### `1.0.0`
 
