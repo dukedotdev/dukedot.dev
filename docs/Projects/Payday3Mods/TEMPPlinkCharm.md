@@ -16,4 +16,4 @@ TO-DO BEFORE PUBLISHING:
 Make a render for the charm to use for the store image
 Fix normals to be flat [or make custom? unsure tbh]
 
-[Pre-publish download](static\mods\pd3\PlinkShamrockCharm\PlinkShamrockCharm.zip)
+[Pre-publish download](\mods\pd3\PlinkShamrockCharm\PlinkShamrockCharm.zip)
